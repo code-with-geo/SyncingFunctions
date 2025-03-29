@@ -3,7 +3,7 @@ Imports System.Net
 Imports Newtonsoft.Json.Linq
 Public Class Form1
     Dim connectionString As String = "Server=localhost\SQLEXPRESS;Database=pos_inventory;User Id=sa;Password=angcuteko;Integrated Security=True;"
-    Dim apiUrl As String = "http://localhost:5000/api/products"
+    Dim apiUrl As String = "https://pos-backend-api-1-6s4f.onrender.com/api/products"
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         Dim jsonResponse As String = ""
