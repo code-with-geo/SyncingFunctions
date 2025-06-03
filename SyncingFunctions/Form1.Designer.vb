@@ -27,7 +27,7 @@ Partial Class Form1
         ' 
         ' Button1
         ' 
-        Button1.Location = New Point(12, 12)
+        Button1.Location = New Point(204, 121)
         Button1.Name = "Button1"
         Button1.Size = New Size(132, 49)
         Button1.TabIndex = 1
@@ -38,9 +38,10 @@ Partial Class Form1
         ' 
         AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
-        ClientSize = New Size(160, 72)
+        ClientSize = New Size(524, 237)
         Controls.Add(Button1)
         Name = "Form1"
+        StartPosition = FormStartPosition.CenterScreen
         ResumeLayout(False)
     End Sub
     Friend WithEvents Button1 As Button
